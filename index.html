@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <h1>Sudoku Solver Visualizer</h1>
+      <ul>
+        <li class="nav-link">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="board">
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+        <div class="cell">1</div>
+      </div>
+    </div>
+    <div class="control">
+      <div class="buttons">
+        <button onclick="solvePuzzle()">Solve</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="inputPuzzle()">Load From Input</button>
+      </div>
+      <div>
+        <textarea
+          id="puzzleInput"
+          name="puzzle"
+          id=""
+          cols="9"
+          rows="9"
+        ></textarea>
+      </div>
+      <div>
+        <h3>Load Puzzles</h3>
+        <div class="loadPuzzles">
+          <button onclick="loadPuzzle(1)">Load puzzle #1</button>
+          <button onclick="loadPuzzle(2)">Load puzzle #2</button>
+          <button onclick="loadPuzzle(3)">Load puzzle #3</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

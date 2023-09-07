@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+.nav-link {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1px;
+  margin: 0;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.control {
+  padding: 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.puzzleInput {
+  display: inline-block;
+}
+
+.currentCell {
+  background-color: green;
+}
+
+.loadPuzzles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+}
